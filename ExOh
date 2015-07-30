@@ -1,0 +1,13 @@
+def ExOh(str)
+
+  # code goes here
+  a = str.scan(/x/).count
+  b = str.scan(/o/).count
+  
+  if (a==b)
+    return true
+  else
+    return false
+  end
+         
+end
