@@ -1,0 +1,7 @@
+def WordCount(str)
+
+  # code goes here
+  str = str.split(' ').count
+  return str
+         
+end
