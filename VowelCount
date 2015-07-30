@@ -1,0 +1,7 @@
+def VowelCount(str)
+
+  # code goes here
+  str = str.scan(/[aeoui]/).count
+  return str 
+         
+end
