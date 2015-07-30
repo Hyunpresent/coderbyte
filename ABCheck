@@ -1,0 +1,17 @@
+def ABCheck(str)
+
+  # code goes here
+  str = str.split('')
+  str.each_with_index do |char, idx|
+    if str[idx] == 'a' && str[idx + 4] == 'b'
+      		return true
+    	elsif str[idx] == 'b' && str[idx + 4] == 'a'
+      		return true
+    	end 
+  	end
+  
+  return false
+  
+         
+end
+   
