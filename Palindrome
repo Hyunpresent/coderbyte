@@ -1,0 +1,10 @@
+def Palindrome(str)
+
+  # code goes here
+  if (str == str.reverse)
+    return true
+  end
+  return false
+         
+end
+   
