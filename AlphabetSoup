@@ -1,0 +1,8 @@
+def AlphabetSoup(str)
+
+  # code goes here
+  str = str.downcase.split('',number).sort.join
+  return str
+  
+         
+end
